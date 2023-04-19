@@ -105,10 +105,10 @@ class Chatbot:
 		elif (self.entry.get() == "how do you take attendance?"):
 			self.text.insert(END, "\n\n" + "BOT: From the main menu, click the Facial Recognition Button. When the feature window pop up click the botton to run the program. A window will pop up showing the video feed for your session. When you are ready to end the session close the window.")	
 		
-		elif (self.entry.get() == "what is the purpose for the purpose for the attendance sheet?"):
+		elif (self.entry.get() == "what is the purpose for the attendance sheet?"):
 			self.text.insert(END, "\n\n" + "BOT: With the options available it will allow you to modify past and present attendance records without having to access the database.")	
 		
-		elif (self.entry.get() == "what is the purpose for the purpose for the warning list?"):
+		elif (self.entry.get() == "what is the purpose for the warning list?"):
 			self.text.insert(END, "\n\n" + "BOT: With the options available it will allow you view students who missed the class session and email them a warning about their attendance.")	
 		
 		elif (self.entry.get() == "bye"):
