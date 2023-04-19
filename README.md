@@ -3,6 +3,7 @@ Final Year final Project for an attendance monitoring application using Raspberr
 
 
 On the Raspberry Pi 3, face recognition can be accomplished by combining hardware and software elements. Here is a general description of the procedure:
+    
     1.	Hardware setup: The Raspberry Pi 3 needs to be configured with a camera module that can take good pictures as the first step. The Pi should be turned on and             linked to a display before the camera module is connected to its CSI connection.
     
     2.	Software installation: To perform face recognition on the Pi, you must next install the necessary software. OpenCV is a common library for this use.
